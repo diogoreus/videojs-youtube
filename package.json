@@ -21,7 +21,7 @@
     "video.js": "5.x"
   },
   "scripts": {
-    "build": "mkdirp dist && cp src/Youtube.js dist/Youtube.js && uglifyjs src/Youtube.js -o dist/Youtube.min.js",
+    "build": "mkdir dist && cp src/Youtube.js dist/Youtube.js && uglifyjs src/Youtube.js -o dist/Youtube.min.js",
     "lint": "jshint .",
     "test": "karma start --single-run",
     "validate": "npm ls"
